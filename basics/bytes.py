@@ -19,5 +19,5 @@ print (list1 == list2)
 
 '''
  is -- memory
- == -- values
+ == -- value
 '''
