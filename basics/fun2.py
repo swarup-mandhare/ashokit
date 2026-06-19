@@ -1,11 +1,23 @@
-# def test_func(param1="Hello", param2="Welcome"):
-#     print(param1, param2)
+def db_func() :
+      username = "admin"
+      password = "admin@123"
+      if (username == "admin" and password == "admin@123") :
+        print("Login Success")
+      else:
+        print ("Login Failed")
+db_func()
 
-# test_func()            # no arguments
-# test_func(100, 200)    # arguments given
-# test_func(None, 1000)  # arguments given
-def show(*args):
-    return(args)
+# def test_func(*args):
+#     print (sum(args))
+#     print (len(args))
+#     print (max (args)) # arguments given
+#     print (max (args)) 
+# test_func(20,56,76,34,99)
 
-s = show(8, 8, 9, "swarup")
-print (s)
+# def test_func() :
+#     return 100,200,300
+# res = test_func()
+# num1, num2, num3 = res
+# print (num1, num2,num3)
+# print (res)
+

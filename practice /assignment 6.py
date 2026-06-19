@@ -1,0 +1,5 @@
+tup = (21, "swarup", 98.6, "gym", "instagram")
+print("The entire tuple is :", tup)
+print("The first element of tuple is :",tup[0])
+print("The last element of tuple is :",tup[-1])
+print("The length of tuple is :",len(tup))
