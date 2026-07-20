@@ -21,3 +21,10 @@ db_func()
 # print (num1, num2,num3)
 # print (res)
 
+def calc_sum (a, b) :
+    sum = a + b
+    print (sum)
+    return sum
+x = calc_sum (2,3)
+print(x)
+
